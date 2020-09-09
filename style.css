@@ -1,0 +1,65 @@
+h1 {
+    color: darkred;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 5px;
+    font-weight: lighter;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#generate {
+    color: ghostwhite;
+    background-color: goldenrod;
+    font-size: 9pt;
+    margin: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#generate:hover{
+    color: maroon;
+}
+
+#content {
+    margin: 5px;
+    align: center;
+}
+
+#content p{
+    font: lighter;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.generated-content {
+    color: darkslategray;
+    background-color: lightgray;
+    font-size: 15pt;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: maroon;
+}
